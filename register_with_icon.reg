@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.pt]
+@="Pytonchik.File"
+
+[HKEY_CLASSES_ROOT\Pytonchik.File]
+@="Pytonchik Script"
+"DefaultIcon"="C:\\Pytonchik\\snake.ico,0"
+
+[HKEY_CLASSES_ROOT\Pytonchik.File\Shell\Open]
+@="&Открыть в редакторе"
+
+[HKEY_CLASSES_ROOT\Pytonchik.File\Shell\Open\Command]
+@="wscript.exe \"C:\\Pytonchik\\open_pt_simple.vbs\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Pytonchik.File\Shell\Run]
+@="&Запустить в Pytonchik"
+
+[HKEY_CLASSES_ROOT\Pytonchik.File\Shell\Run\Command]
+@="pt start \"%1\""
+
+[HKEY_CLASSES_ROOT\Pytonchik.File\Shell\Edit]
+@="&Редактировать"
+
+[HKEY_CLASSES_ROOT\Pytonchik.File\Shell\Edit\Command]
+@="wscript.exe \"C:\\Pytonchik\\open_pt_simple.vbs\" \"%1\""

@@ -1,0 +1,52 @@
+{
+  "youtube-plus": {
+    "name": "YouTube+",
+    "description": "🎬 Управление YouTube через Pytonchik",
+    "version": "1.0.0",
+    "author": "Pytonchik Team",
+    "dependencies": ["requests", "tkinter"],
+    "files": ["youtube_plugin.py", "youtube_pt.py", "youtube_plugin.bat"],
+    "github_url": "https://raw.githubusercontent.com/pytonchik/plugins/main/youtube-plus/",
+    "install_command": "youtube_install.bat"
+  },
+  "info-mods": {
+    "name": "Info+Mods",
+    "description": "🚀 200+ модификаций для Pytonchik",
+    "version": "1.0.0",
+    "author": "Pytonchik Team",
+    "dependencies": ["psutil", "GPUtil", "pyautogui", "pygame", "speechrecognition", "qrcode", "speedtest-cli"],
+    "files": ["info_mods_plugin.py", "info_mods_integration.py", "info_mods.bat"],
+    "github_url": "https://raw.githubusercontent.com/pytonchik/plugins/main/info-mods/",
+    "install_command": "info_mods_install.bat"
+  },
+  "gui-builder": {
+    "name": "GUI Builder",
+    "description": "🎨 Визуальный конструктор интерфейсов",
+    "version": "1.0.0",
+    "author": "Pytonchik Team",
+    "dependencies": ["tkinter", "PIL"],
+    "files": ["gui_builder.py"],
+    "github_url": "https://raw.githubusercontent.com/pytonchik/plugins/main/gui-builder/",
+    "install_command": "gui_builder_install.bat"
+  },
+  "game-engine": {
+    "name": "Game Engine",
+    "description": "🎮 Движок для создания 2D игр",
+    "version": "1.0.0",
+    "author": "Pytonchik Team",
+    "dependencies": ["pygame", "numpy"],
+    "files": ["game_engine.py"],
+    "github_url": "https://raw.githubusercontent.com/pytonchik/plugins/main/game-engine/",
+    "install_command": "game_engine_install.bat"
+  },
+  "ai-assistant": {
+    "name": "AI Assistant",
+    "description": "🤖 ИИ помощник с голосовым управлением",
+    "version": "1.0.0",
+    "author": "Pytonchik Team",
+    "dependencies": ["speechrecognition", "pyttsx3", "requests"],
+    "files": ["ai_assistant.py"],
+    "github_url": "https://raw.githubusercontent.com/pytonchik/plugins/main/ai-assistant/",
+    "install_command": "ai_assistant_install.bat"
+  }
+}
